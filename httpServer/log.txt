@@ -9,3 +9,6 @@
 1716026370639: /about?myName=Shyam New req recieved 
 1716026387403: /about?myName=ShyamsunderHait New req recieved 
 1716026575034: /search?search_url=shipParadox New req recieved 
+1716241410111: GET / New req recieved 
+1716241723790: GET /signup New req recieved 
+1716241747191: GET /signup New req recieved 

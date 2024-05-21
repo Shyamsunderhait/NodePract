@@ -12,3 +12,9 @@
 1716241410111: GET / New req recieved 
 1716241723790: GET /signup New req recieved 
 1716241747191: GET /signup New req recieved 
+1716242474641: GET /signup New req recieved 
+1716243857510: GET /signup New req recieved 
+1716243858454: GET /signup New req recieved 
+1716243858656: GET /signup New req recieved 
+1716243858850: GET /signup New req recieved 
+1716243864749: GET /about New req recieved 

@@ -1,7 +1,13 @@
 const express = require("express");
+const fs = require("fs");
 const users = require("./MOCK_DATA.json");
 const port = 8000;
 const app = express();
+
+//Middleware or plugin
+
+//converts form data into body
+app.use(express.urlencoded({ extended: false }));
 
 //rooutes
 
@@ -36,7 +42,11 @@ app.get("/api/users", (req, res) => {
 });
 
 app.post("/api/users", (req, res) => {
-  res.json({ status: "Pending" });
+  const body = req.body;
+  users.push({ ...body, id: users.length + 1 });
+  fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err, data) => {
+    return res.json({ status: "success", id: users.length });
+  });
 });
 
 // app.get("/api/users/:id", (req, res) => {

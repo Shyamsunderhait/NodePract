@@ -9,6 +9,21 @@ const app = express();
 //converts form data into body
 app.use(express.urlencoded({ extended: false }));
 
+app.use((req, res, next) => {
+  fs.appendFile(
+    "log.txt",
+    `\n${Date.now()}: ${req.ip} ${req.method}: ${req.path}\n`,
+    (err, data) => {
+      next();
+    }
+  );
+});
+
+app.use((req, res, next) => {
+  next();
+  // return res.json({ res: "Middle ware ended here" });
+});
+
 //rooutes
 
 app.get("/users", (req, res) => {

@@ -7,3 +7,41 @@
 1716841747840: ::1 GET: /api/users/997
 
 1716841748617: ::1 GET: /api/users/997
+
+1716845147356: ::1 GET: /api/users/
+
+1716845231218: ::1 GET: /api/users/
+
+1716845339702: ::1 GET: /api/users/
+
+1716846552717: ::1 GET: /api/users/
+
+1716852541533: ::1 POST: /api/users/
+
+1716853170304: ::1 POST: /api/users/
+
+1716853243124: ::1 POST: /api/users/
+
+1716853292727: ::1 POST: /api/users/
+
+1716853304440: ::1 POST: /api/users/
+
+1716853312511: ::1 POST: /api/users/
+
+1716853316894: ::1 POST: /api/users/
+
+1716853656520: ::1 GET: /api/users/1000
+
+1716853662266: ::1 GET: /api/users/10000
+
+1716853706568: ::1 GET: /api/users/1000
+
+1716853709381: ::1 GET: /api/users/10000
+
+1716853713481: ::1 GET: /api/users/10000
+
+1716853730590: ::1 GET: /api/users/10000
+
+1716853766678: ::ffff:127.0.0.1 GET: /api/users/1000
+
+1716853771188: ::ffff:127.0.0.1 GET: /api/users/10001

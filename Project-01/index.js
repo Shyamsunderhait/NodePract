@@ -42,6 +42,9 @@ app
   .get((req, res) => {
     const id = Number(req.params.id);
     const userById = users.find((user) => user.id === id);
+    if (!userById) {
+      return res.status(404).json({ status: "Not found" });
+    }
     return res.json(userById);
   })
   .patch((req, res) => {
@@ -53,14 +56,26 @@ app
   });
 
 app.get("/api/users", (req, res) => {
+  console.log(req.headers);
+  res.setHeader("X-myName", "Shyamsunder Hait");
   res.send(users);
 });
 
 app.post("/api/users", (req, res) => {
   const body = req.body;
+  if (
+    !body ||
+    !body.first_name ||
+    !body.last_name ||
+    !body.email ||
+    !body.gender ||
+    !body.job_title
+  ) {
+    return res.status(400).json({ status: "bad request" });
+  }
   users.push({ ...body, id: users.length + 1 });
   fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err, data) => {
-    return res.json({ status: "success", id: users.length });
+    return res.status(203).json({ status: "success", id: users.length });
   });
 });
 

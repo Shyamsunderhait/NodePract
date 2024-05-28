@@ -45,3 +45,53 @@
 1716853766678: ::ffff:127.0.0.1 GET: /api/users/1000
 
 1716853771188: ::ffff:127.0.0.1 GET: /api/users/10001
+
+1716937432980: ::1 POST: /api/users/
+
+1716937647657: ::1 POST: /api/users/
+
+1716937722525: ::1 POST: /api/users/
+
+1716937956121: ::1 GET: /users
+
+1716937956362: ::1 GET: /favicon.ico
+
+1716938088651: ::1 POST: /api/users/
+
+1716938096173: ::1 GET: /users
+
+1716938201512: ::1 GET: //api/users
+
+1716938265734: ::1 GET: //api/users
+
+1716938268120: ::1 GET: //api/users
+
+1716938269625: ::1 GET: //api/users
+
+1716938272355: ::1 GET: //api/users
+
+1716938272951: ::1 GET: //api/users
+
+1716938273154: ::1 GET: //api/users
+
+1716938273308: ::1 GET: //api/users
+
+1716938273482: ::1 GET: //api/users
+
+1716938273666: ::1 GET: //api/users
+
+1716938273816: ::1 GET: //api/users
+
+1716938274031: ::1 GET: //api/users
+
+1716938304818: ::1 GET: /api/users
+
+1716939118316: ::1 GET: /api/users/66566568bd9b12e6b71cb06c
+
+1716939125516: ::1 GET: /api/users/6566568bd9b12e6b71cb06c
+
+1716939316633: ::1 GET: /api/users/66566568bd9b12e6b71cb06c
+
+1716939360693: ::1 PATCH: /api/users/66566568bd9b12e6b71cb06c
+
+1716939520912: ::1 DELETE: /api/users/665663fa89feb6f8123951c6
